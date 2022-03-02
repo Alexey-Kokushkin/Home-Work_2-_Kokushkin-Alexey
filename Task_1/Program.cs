@@ -13,11 +13,5 @@ int dif(int number)
     int units = dec % 10;
     return units;
 }
-
 int result = dif(number); 
 Console.WriteLine(result);
-
-
-//int[]array = {number};
-//int n = array.Length;
-//Console.Write(n);
