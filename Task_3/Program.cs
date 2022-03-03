@@ -14,11 +14,12 @@ int Fun1(int number)
         console.WriteLine("Третья цифра числа отсутствует ");
     }
 }
-int result1 = Fun1(number);
-int Fun2(int number)
-{
-    if (number > 100)
-    {
-        
-    }
-}
+//int result1 = Fun1(number);
+//int Fun2(int number)
+//{
+    //if (number > 100)
+    //{
+
+    //}
+//}
+int number = - number;
