@@ -5,18 +5,20 @@
 
 int number = new Random().Next(100,999);
 Console.WriteLine(number);
-void dif(int number)
+int div1(int number1)
 {
     int hundred = number / 100;
-    int dec = number / 10;
-    int units = dec % 10;
+    return hundred;
 }
 
+int div3(int number3)
+{
+    int units = number%10;
+    return units;
+}
+int numberindex1 = div1(number);
+int numberindex3 = div3(number);
 
-//int result = dif(number);
-//int hundred = number / 100;
-//int dec = number/10;
-//int units = number%10;
+Console.Write(numberindex1);
+Console.Write(numberindex3);
 
-//result = dec
-Console.WriteLine(result);
