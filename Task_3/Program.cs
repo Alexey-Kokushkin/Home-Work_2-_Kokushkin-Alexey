@@ -5,21 +5,20 @@
 
 Console.WriteLine("Введите число: ");
 String inputnumber = Console.ReadLine();
-int number = int.Parse(inputnumber);
+int size = inputnumber.Length;
 
-int Fun1(int number)
+if(size < 3)
 {
-    if (number < 100)
-    {
-        console.WriteLine("Третья цифра числа отсутствует ");
-    }
+    Console.WriteLine("Третья цифра числа отсутствует ");
 }
-//int result1 = Fun1(number);
-//int Fun2(int number)
-//{
-    //if (number > 100)
-    //{
 
-    //}
-//}
-int number = - number;
+int[] array = new int[size];
+int currentindex = 0;
+while (currentindex < size)
+{
+    array[currentindex] = int.Parse(inputnumber[currentindex].ToString());
+    currentindex++;
+}
+Console.WriteLine(array[2]);
+
+
