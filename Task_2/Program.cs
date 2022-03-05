@@ -19,6 +19,7 @@ int div3(int number3)
 int numberindex1 = div1(number);
 int numberindex3 = div3(number);
 
+
 Console.Write(numberindex1);
 Console.Write(numberindex3);
 
